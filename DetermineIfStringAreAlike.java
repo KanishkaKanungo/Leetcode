@@ -14,7 +14,7 @@ class Solution {
        if(counter==counter1){
            return true;
        }
-       
+        
        return false;
     }
     public boolean check(char  ch){
