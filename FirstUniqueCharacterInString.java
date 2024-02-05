@@ -14,7 +14,7 @@ public class FirstUniqueCharacterInString {
                     flag = true;
                 }
                 else{
-                    flag = false;
+                    flag = false;    
                     break;
                 }
             }
