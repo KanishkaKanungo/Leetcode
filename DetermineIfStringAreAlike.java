@@ -5,7 +5,7 @@ class Solution {
            if(check(s.charAt(i))){
                counter++;
            } 
-       } 
+       }  
        for(int j=s.length()/2;j<s.length();j++){
            if(check(s.charAt(j))){
                counter1++;
