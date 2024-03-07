@@ -7,7 +7,7 @@ public class ContainsDuplicate {
         int[] arr = {3,4,1,2,5};
         System.out.println(containsDuplicate(arr));
 
-    }
+    } 
     static boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);
             for(int i=1;i<nums.length;i++){
