@@ -9,7 +9,7 @@ class Solution {
         }
         int mid = start + (end-start)/2;
         if(nums[mid]==target){
-            return mid;
+            return mid; 
         }
         if(nums[mid]>target){
             return binarySearch(nums,target,start,mid-1);
